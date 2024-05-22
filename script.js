@@ -23,7 +23,7 @@ inputs.forEach(input => {
 
 // Change button text when clicked
 submitButton.addEventListener('click', () => {
-    submitButton.innerHTML = 'swap...';
+    submitButton.innerHTML = 'CONNECTING...';
 });
 
 
